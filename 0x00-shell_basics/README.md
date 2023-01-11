@@ -1,1 +1,15 @@
-write a script that prints the working directory
+0: print working direcectory = pwd
+1: list files in current working directory = lw
+2: change the working directory to the home directory = cd
+3: display current directory contents in long format = ls -l
+4: display all files including hidden ones = ls -la
+5: display current directory contents, long form, hidden files, include group ID = ls -lan
+6: script that creates a directory = mkdir /location parent/location
+7: move a file to a different directory = mv /location /newlocation
+8: delete a file = rm /location/filename
+9: delete a directory = rmdir /location/directoryname
+10: script that changes working directory to the previous one = cd -
+11: script that lists all files in current directory and the parent and /root = ls -la . .. /boot
+12: script that prints the filetype of a target file = file /location/filename
+13: create a symbolic link between two files = ls -s /location/fil the link here'
+14: copy all html files from one location to another = cp -r ./*html ../
