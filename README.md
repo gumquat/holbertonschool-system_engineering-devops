@@ -1,2 +1,1 @@
-#!/bin/bash
-VIM and Shell
+empty for now, will add text that matters laiter
