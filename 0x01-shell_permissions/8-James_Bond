@@ -1,2 +1,2 @@
 #!/bin/bash
-chmom ug-wrx o+wrx
+chmod 007 hello
