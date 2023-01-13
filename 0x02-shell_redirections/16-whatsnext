@@ -1,2 +1,2 @@
 #!/bin/basp
-grep -l -n3 root /etc/passwd
+grep root /etc/passwd -A3
