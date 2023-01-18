@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # make it say Best School 10 times
-i = 1
-until [ $i -eq 10 ]
+i=1
+until [ $i == 10 ]
 do
 echo "Best School" 
 ((i++))
