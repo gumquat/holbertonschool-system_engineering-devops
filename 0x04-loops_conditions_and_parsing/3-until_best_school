@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # make it say Best School 10 times
 i = 1
-until [ $i == 10 ]
+until [ $i -eq 10 ]
 do
 echo "Best School" 
-i=$((i+1))
+((i++))
 done
