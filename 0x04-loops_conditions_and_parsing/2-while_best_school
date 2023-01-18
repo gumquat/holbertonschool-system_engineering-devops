@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # prints best school 10 time
-i=0
+i=1
 while [ $i -le 10 ]
-do echo "Best School" 
-$((i++))
+do 
+echo "Best School" 
+((i++))
 done
