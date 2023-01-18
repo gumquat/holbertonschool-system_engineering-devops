@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# make it say Best School 10 times
+i = 0
+until [ $i -gt 5]
+do
+echo "Best School" 
+((i++))
+done
