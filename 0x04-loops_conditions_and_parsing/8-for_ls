@@ -2,8 +2,6 @@
 # comment goes here
 
 for i in *
-	do
-	
-	echo $i | cut -f 2 -d '-'  
-	
-	done
+do
+	echo "$i" | cut -f 2 -d '-'  
+done
