@@ -16,4 +16,5 @@ while [ i -ls 10 ]
 		else
 		echp "Best School"
 
+		((i++))
 done
