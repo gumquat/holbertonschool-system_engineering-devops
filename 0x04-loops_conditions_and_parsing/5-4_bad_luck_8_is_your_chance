@@ -8,13 +8,16 @@ while [ $i -ls 10 ]
 	echo "Best School"
 
 		if [ $i -eq 4 ]
+		then	
 		echo "bad luck"
 		
 		elif [ $i -eq 8 ]
+		then
 		echo "good luck"
 
 		else
-		echp "Best School"
+		then
+		echo "Best School"
 
 		((i++))
 done
