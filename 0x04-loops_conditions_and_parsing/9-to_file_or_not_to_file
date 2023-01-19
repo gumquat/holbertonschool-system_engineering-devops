@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# comment goes here
+
+file = "school"
+
+if [$file -e]
+then
+echo "school file exists"
+else
+echo "school file does not exist"
+fi
+
+
+if [$file -s]
+then
+echo "school file is not empty"
+else
+echo "school file is empty"
+fi
+
+
+if [$file -f]
+then
+echo "school is a regular file"
+fi
