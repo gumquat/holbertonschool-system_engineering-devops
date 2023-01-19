@@ -21,5 +21,6 @@ echo "$file file does not exist"
 	if [ -f $file ]
 	then
 	echo "$file is a regular file"
+else
 	fi
 fi
