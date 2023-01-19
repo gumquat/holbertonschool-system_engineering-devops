@@ -2,17 +2,18 @@
 # comment goes here
 
 hour=0
-counter = 1
+minute=1
 
-while [ $counter -le 60 ]
-
-	do
-		echo "$counter"
-		((counter++))
-			
-			else [ $counter -eq 60 ]
-			((hour++))
-			echo "$hour
-			counter = 1
-
+while [ $hour -lt 13 ]; do
+	echo "Hour: $hour"
+       	while [ $minute -lt 60 ]; do
+		echo "$minute"
+		((minute++))
 	done
+	((minute=1))
+	((hours++))
+done	
+
+
+
+
