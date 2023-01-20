@@ -4,8 +4,8 @@
 i=0
 
 while [$i<1]
-do 
+do
+	sleep 2	
 	echo "To infinity and beyond"
-	sleep 2
 done
 
