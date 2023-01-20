@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # bash script that kills the unkillable
 
-pkill -9 | pidof "7-highlander"
+PID=0
+pgrep -f 7-highlander=PID | pkill -9 $PID 
 
 
