@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# bash script that infinitely displays a line, with sleep 2, and displays a line of text when it recieves a SIGTERM signal
+
+while :
+do
+	echo "To infinity and beyond"
+	sleep 2
+	 if (signal(SIGTERM, sig_handler) == SIG_ERR)
+		 do
+			 printf "I am invincible!!!"
+		
+done 
+ 
