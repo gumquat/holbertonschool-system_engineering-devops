@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
 # bass script that displays 'to infinity and beyond' indefinitely
 
-i=0
-
-while [$i<1]
+while : 
 do
-	sleep 2	
 	echo "To infinity and beyond"
+	sleep 2
 done
 
