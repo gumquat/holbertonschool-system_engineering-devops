@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
 # bash script that infinitely displays a line, with sleep 2, and displays a line of text when it recieves a SIGTERM signal
 
-void sig_handler(int signo)
-
-	if (signo == SIGTERM)
-		printf "I am invincible!!!";
+trap "echo I am invincible!!!" SIGTERM
 
 while :
 do
