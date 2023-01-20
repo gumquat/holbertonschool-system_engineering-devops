@@ -2,7 +2,7 @@
 # bash script that kills the unkillable
 
 
-pidof 7-highlander
-kill -9 $$ 
+pgrep 7-highlander 
+kill -9 7-highlander
 
 
