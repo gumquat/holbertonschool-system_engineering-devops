@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # bash script that kills the unkillable
 
-kill -9 "7-highlande"
+kill -9 "7-highlander"
