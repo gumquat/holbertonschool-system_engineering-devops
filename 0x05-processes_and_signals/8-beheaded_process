@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # bash script that kills the unkillable
 
-pkill -9 -l 7-highlander
-
+pkill -9 | pidof "7-highlander"
 
 
