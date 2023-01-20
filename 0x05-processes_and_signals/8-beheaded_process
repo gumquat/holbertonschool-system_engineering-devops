@@ -2,6 +2,6 @@
 # bash script that kills the unkillable
 
 PID=0
-pgrep -f 7-highlander=PID | pkill -9 $PID 
+pgrep -f 7-highlander=$PID | pkill -9 $PID 
 
 
