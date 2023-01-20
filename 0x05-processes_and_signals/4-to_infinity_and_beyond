@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# bass script that displays 'to infinity and beyond' indefinitely
+
+i=0
+
+while [$i<1]
+do 
+	echo "To Infinity and beyond"
+done
+
