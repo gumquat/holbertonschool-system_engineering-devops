@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 # bash script that kills the unkillable
 
-pkill -signal SIGKILL "7-highlander"
+
+pidof 7-highlander
+kill -9 $$ 
+
+
