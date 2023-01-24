@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # bash script that kills the unkillable
-
+# pkill -f "7-highlander" <-- OTHER ANSWER
 PID=0
-pgrep -f 7-highlander=$PID | pkill -9 $PID 
+pgrep -f 7-highlander=PID | pkill -9 $PID 
 
 
